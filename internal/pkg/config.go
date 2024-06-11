@@ -153,7 +153,7 @@ func generateCertificate(
 // a destination struct with reasonable defaults.
 //
 // NOTE: This logic was borrowed from device-mqtt-go and some additional logic was added to accommodate more types.
-// https://github.com/edgexfoundry/device-mqtt-go/blob/a0d50c6e03a7f7dcb28f133885c803ffad3ec502/internal/driver/config.go#L74-L101
+// https://github.com/agile-edgex/device-mqtt-go/blob/a0d50c6e03a7f7dcb28f133885c803ffad3ec502/internal/driver/config.go#L74-L101
 func Load(config map[string]string, des interface{}) error {
 	val := reflect.ValueOf(des).Elem()
 	for i := 0; i < val.NumField(); i++ {

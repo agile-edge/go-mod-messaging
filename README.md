@@ -1,8 +1,8 @@
 # go-mod-messaging
-[![Build Status](https://jenkins.edgexfoundry.org/view/EdgeX%20Foundry%20Project/job/edgexfoundry/job/go-mod-messaging/job/main/badge/icon)](https://jenkins.edgexfoundry.org/view/EdgeX%20Foundry%20Project/job/edgexfoundry/job/go-mod-messaging/job/main/) [![Code Coverage](https://codecov.io/gh/edgexfoundry/go-mod-messaging/branch/main/graph/badge.svg?token=jyOHuKlGPu)](https://codecov.io/gh/edgexfoundry/go-mod-messaging) [![Go Report Card](https://goreportcard.com/badge/github.com/edgexfoundry/go-mod-messaging)](https://goreportcard.com/report/github.com/edgexfoundry/go-mod-messaging) [![GitHub Latest Dev Tag)](https://img.shields.io/github/v/tag/edgexfoundry/go-mod-messaging?include_prereleases&sort=semver&label=latest-dev)](https://github.com/edgexfoundry/go-mod-messaging/tags) ![GitHub Latest Stable Tag)](https://img.shields.io/github/v/tag/edgexfoundry/go-mod-messaging?sort=semver&label=latest-stable) [![GitHub License](https://img.shields.io/github/license/edgexfoundry/go-mod-messaging)](https://choosealicense.com/licenses/apache-2.0/) ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/edgexfoundry/go-mod-messaging) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr-raw/edgexfoundry/go-mod-messaging)](https://github.com/edgexfoundry/go-mod-messaging/pulls) [![GitHub Contributors](https://img.shields.io/github/contributors/edgexfoundry/go-mod-messaging)](https://github.com/edgexfoundry/go-mod-messaging/contributors) [![GitHub Committers](https://img.shields.io/badge/team-committers-green)](https://github.com/orgs/edgexfoundry/teams/go-mod-messaging-committers/members) [![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/edgexfoundry/go-mod-messaging)](https://github.com/edgexfoundry/go-mod-messaging/commits)
+[![Build Status](https://jenkins.agile-edgex.org/view/EdgeX%20Foundry%20Project/job/agile-edgex/job/go-mod-messaging/job/main/badge/icon)](https://jenkins.agile-edgex.org/view/EdgeX%20Foundry%20Project/job/agile-edgex/job/go-mod-messaging/job/main/) [![Code Coverage](https://codecov.io/gh/agile-edgex/go-mod-messaging/branch/main/graph/badge.svg?token=jyOHuKlGPu)](https://codecov.io/gh/agile-edgex/go-mod-messaging) [![Go Report Card](https://goreportcard.com/badge/github.com/agile-edgex/go-mod-messaging)](https://goreportcard.com/report/github.com/agile-edgex/go-mod-messaging) [![GitHub Latest Dev Tag)](https://img.shields.io/github/v/tag/agile-edgex/go-mod-messaging?include_prereleases&sort=semver&label=latest-dev)](https://github.com/agile-edgex/go-mod-messaging/tags) ![GitHub Latest Stable Tag)](https://img.shields.io/github/v/tag/agile-edgex/go-mod-messaging?sort=semver&label=latest-stable) [![GitHub License](https://img.shields.io/github/license/agile-edgex/go-mod-messaging)](https://choosealicense.com/licenses/apache-2.0/) ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/agile-edgex/go-mod-messaging) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr-raw/agile-edgex/go-mod-messaging)](https://github.com/agile-edgex/go-mod-messaging/pulls) [![GitHub Contributors](https://img.shields.io/github/contributors/agile-edgex/go-mod-messaging)](https://github.com/agile-edgex/go-mod-messaging/contributors) [![GitHub Committers](https://img.shields.io/badge/team-committers-green)](https://github.com/orgs/agile-edgex/teams/go-mod-messaging-committers/members) [![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/agile-edgex/go-mod-messaging)](https://github.com/agile-edgex/go-mod-messaging/commits)
 
 Messaging client library for use by Go implementation of EdgeX micro services.  This project contains the abstract Message Bus interface and an implementation for Redis Pub/Sub, MQTT and NATS.
-These interface functions connect, publish, subscribe and disconnect to/from the Message Bus.  For more information see the [MessageBus documentation](https://docs.edgexfoundry.org/latest/microservices/general/messagebus/).
+These interface functions connect, publish, subscribe and disconnect to/from the Message Bus.  For more information see the [MessageBus documentation](https://docs.agile-edgex.org/latest/microservices/general/messagebus/).
 
 ### What is this repository for? ###
 
@@ -16,7 +16,7 @@ These interface functions connect, publish, subscribe and disconnect to/from the
 
 * Make sure you have modules enabled, i.e. have an initialized  go.mod file
 * If your code is in your GOPATH then make sure ```GO111MODULE=on``` is set
-* Run ```go get github.com/edgexfoundry/go-mod-messaging/v3```
+* Run ```go get github.com/agile-edgex/go-mod-messaging/v3```
   * This will add the go-mod-messaging to the go.mod file and download it into the module cache
 
 ### How to Use ###
@@ -63,7 +63,7 @@ types.MessageBusConfig{
 ```
 
 **NOTE**  
-For complete details on configuration options see the [MessageBus documentation](https://docs.edgexfoundry.org/latest/microservices/general/messagebus/)
+For complete details on configuration options see the [MessageBus documentation](https://docs.agile-edgex.org/latest/microservices/general/messagebus/)
 
 ### Usage
 The following code snippets demonstrate how a service uses this messaging module to create a connection, send messages, and receive messages.
