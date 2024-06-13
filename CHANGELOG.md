@@ -167,7 +167,7 @@
 <a name="v0.1.27"></a>
 ## [v0.1.27] - 2020-10-19
 ### Bug Fixes 🐛
-- Change CorrelationID key constant to match recent change in edgex-go ([#47c5376](https://github.com/agile-edgex/go-mod-messaging/commits/47c5376))
+- Change CorrelationID key constant to match recent change in edgex ([#47c5376](https://github.com/agile-edgex/go-mod-messaging/commits/47c5376))
 
 <a name="v0.1.26"></a>
 ## [v0.1.26] - 2020-10-09
