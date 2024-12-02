@@ -18,7 +18,7 @@ package mqtt
 import (
 	"strconv"
 
-	"github.com/agile-edgex/go-mod-messaging/v3/internal/pkg"
+	"github.com/agile-edge/go-mod-messaging/v3/internal/pkg"
 )
 
 // mqttOptionalConfigurationBuilder encapsulates the optional configuration data following the builder pattern. Updating

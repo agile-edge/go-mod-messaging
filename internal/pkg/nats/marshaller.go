@@ -27,7 +27,7 @@ import (
 
 	"github.com/nats-io/nats.go"
 
-	"github.com/agile-edgex/go-mod-messaging/v3/pkg/types"
+	"github.com/agile-edge/go-mod-messaging/v3/pkg/types"
 )
 
 type jsonMarshaller struct {

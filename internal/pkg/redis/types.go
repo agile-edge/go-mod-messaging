@@ -19,7 +19,7 @@ package redis
 import (
 	"crypto/tls"
 
-	"github.com/agile-edgex/go-mod-messaging/v3/pkg/types"
+	"github.com/agile-edge/go-mod-messaging/v3/pkg/types"
 )
 
 const (

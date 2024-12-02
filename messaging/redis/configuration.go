@@ -1,6 +1,6 @@
 package redis
 
-import "github.com/agile-edgex/go-mod-messaging/v3/internal/pkg"
+import "github.com/agile-edge/go-mod-messaging/v3/internal/pkg"
 
 type redisOptionalConfigurationBuilder struct {
 	options map[string]string

@@ -19,7 +19,7 @@
 package nats
 
 import (
-	"github.com/agile-edgex/go-mod-messaging/v3/internal/pkg/nats/interfaces"
+	"github.com/agile-edge/go-mod-messaging/v3/internal/pkg/nats/interfaces"
 )
 
 // ConnectNats is a function that can be provided to determine the underlying connection for clients to use.

@@ -23,8 +23,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/agile-edgex/go-mod-core-contracts/v3/common"
-	commonDTO "github.com/agile-edgex/go-mod-core-contracts/v3/dtos/common"
+	"github.com/agile-edge/go-mod-core-contracts/v3/common"
+	commonDTO "github.com/agile-edge/go-mod-core-contracts/v3/dtos/common"
 	"github.com/google/uuid"
 )
 

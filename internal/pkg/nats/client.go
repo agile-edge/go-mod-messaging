@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/agile-edgex/go-mod-messaging/v3/internal/pkg"
-	"github.com/agile-edgex/go-mod-messaging/v3/internal/pkg/nats/interfaces"
-	"github.com/agile-edgex/go-mod-messaging/v3/pkg/types"
+	"github.com/agile-edge/go-mod-messaging/v3/internal/pkg"
+	"github.com/agile-edge/go-mod-messaging/v3/internal/pkg/nats/interfaces"
+	"github.com/agile-edge/go-mod-messaging/v3/pkg/types"
 	"github.com/hashicorp/go-multierror"
 	"github.com/nats-io/nats.go"
 )

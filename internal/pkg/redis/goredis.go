@@ -25,7 +25,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/agile-edgex/go-mod-messaging/v3/pkg/types"
+	"github.com/agile-edge/go-mod-messaging/v3/pkg/types"
 
 	goRedis "github.com/go-redis/redis/v7"
 )
