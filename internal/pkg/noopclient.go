@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-messaging/v4/pkg/types"
+	"github.com/agile-edge/go-mod-messaging/v4/pkg/types"
 )
 
 type NoopClient struct{}

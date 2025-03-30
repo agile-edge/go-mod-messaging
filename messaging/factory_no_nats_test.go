@@ -21,8 +21,8 @@ package messaging_test
 import (
 	"testing"
 
-	"github.com/edgexfoundry/go-mod-messaging/v4/messaging"
-	"github.com/edgexfoundry/go-mod-messaging/v4/pkg/types"
+	"github.com/agile-edge/go-mod-messaging/v4/messaging"
+	"github.com/agile-edge/go-mod-messaging/v4/pkg/types"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 )

@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-messaging/v4/internal/pkg"
-	"github.com/edgexfoundry/go-mod-messaging/v4/pkg/types"
+	"github.com/agile-edge/go-mod-messaging/v4/internal/pkg"
+	"github.com/agile-edge/go-mod-messaging/v4/pkg/types"
 )
 
 // MQTTClientConfig contains all the configurations for the MQTT client.

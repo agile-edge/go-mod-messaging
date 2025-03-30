@@ -13,18 +13,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/clients/interfaces"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/dtos"
-	commonDTO "github.com/edgexfoundry/go-mod-core-contracts/v4/dtos/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/dtos/responses"
-	"github.com/edgexfoundry/go-mod-messaging/v4/messaging/mocks"
+	"github.com/agile-edge/go-mod-core-contracts/v4/clients/interfaces"
+	"github.com/agile-edge/go-mod-core-contracts/v4/common"
+	"github.com/agile-edge/go-mod-core-contracts/v4/dtos"
+	commonDTO "github.com/agile-edge/go-mod-core-contracts/v4/dtos/common"
+	"github.com/agile-edge/go-mod-core-contracts/v4/dtos/responses"
+	"github.com/agile-edge/go-mod-messaging/v4/messaging/mocks"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/edgexfoundry/go-mod-messaging/v4/pkg/types"
+	"github.com/agile-edge/go-mod-messaging/v4/pkg/types"
 )
 
 const (

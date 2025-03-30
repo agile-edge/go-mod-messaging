@@ -13,14 +13,14 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/clients/interfaces"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/common"
-	commonDTO "github.com/edgexfoundry/go-mod-core-contracts/v4/dtos/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/dtos/responses"
-	edgexErr "github.com/edgexfoundry/go-mod-core-contracts/v4/errors"
+	"github.com/agile-edge/go-mod-core-contracts/v4/clients/interfaces"
+	"github.com/agile-edge/go-mod-core-contracts/v4/common"
+	commonDTO "github.com/agile-edge/go-mod-core-contracts/v4/dtos/common"
+	"github.com/agile-edge/go-mod-core-contracts/v4/dtos/responses"
+	edgexErr "github.com/agile-edge/go-mod-core-contracts/v4/errors"
 
-	"github.com/edgexfoundry/go-mod-messaging/v4/messaging"
-	"github.com/edgexfoundry/go-mod-messaging/v4/pkg/types"
+	"github.com/agile-edge/go-mod-messaging/v4/messaging"
+	"github.com/agile-edge/go-mod-messaging/v4/pkg/types"
 )
 
 type CommandClient struct {

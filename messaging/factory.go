@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/edgexfoundry/go-mod-messaging/v4/internal/pkg/mqtt"
-	"github.com/edgexfoundry/go-mod-messaging/v4/internal/pkg/nats"
-	"github.com/edgexfoundry/go-mod-messaging/v4/internal/pkg/nats/jetstream"
-	"github.com/edgexfoundry/go-mod-messaging/v4/pkg/types"
+	"github.com/agile-edge/go-mod-messaging/v4/internal/pkg/mqtt"
+	"github.com/agile-edge/go-mod-messaging/v4/internal/pkg/nats"
+	"github.com/agile-edge/go-mod-messaging/v4/internal/pkg/nats/jetstream"
+	"github.com/agile-edge/go-mod-messaging/v4/pkg/types"
 )
 
 const (

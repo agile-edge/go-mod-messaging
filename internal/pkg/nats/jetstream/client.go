@@ -21,9 +21,9 @@ package jetstream
 import (
 	"strings"
 
-	natsMessaging "github.com/edgexfoundry/go-mod-messaging/v4/internal/pkg/nats"
-	"github.com/edgexfoundry/go-mod-messaging/v4/internal/pkg/nats/interfaces"
-	"github.com/edgexfoundry/go-mod-messaging/v4/pkg/types"
+	natsMessaging "github.com/agile-edge/go-mod-messaging/v4/internal/pkg/nats"
+	"github.com/agile-edge/go-mod-messaging/v4/internal/pkg/nats/interfaces"
+	"github.com/agile-edge/go-mod-messaging/v4/pkg/types"
 	"github.com/nats-io/nats.go"
 )
 

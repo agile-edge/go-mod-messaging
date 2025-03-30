@@ -26,8 +26,8 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/common"
-	commonDTO "github.com/edgexfoundry/go-mod-core-contracts/v4/dtos/common"
+	"github.com/agile-edge/go-mod-core-contracts/v4/common"
+	commonDTO "github.com/agile-edge/go-mod-core-contracts/v4/dtos/common"
 	"github.com/fxamacker/cbor/v2"
 	"github.com/google/uuid"
 )

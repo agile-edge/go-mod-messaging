@@ -21,9 +21,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/edgexfoundry/go-mod-messaging/v4/internal/pkg"
-	"github.com/edgexfoundry/go-mod-messaging/v4/internal/pkg/mqtt"
-	"github.com/edgexfoundry/go-mod-messaging/v4/pkg/types"
+	"github.com/agile-edge/go-mod-messaging/v4/internal/pkg"
+	"github.com/agile-edge/go-mod-messaging/v4/internal/pkg/mqtt"
+	"github.com/agile-edge/go-mod-messaging/v4/pkg/types"
 )
 
 func TestBuilderMethods(t *testing.T) {

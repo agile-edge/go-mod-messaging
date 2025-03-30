@@ -25,9 +25,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/common"
-	commonDTO "github.com/edgexfoundry/go-mod-core-contracts/v4/dtos/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v4/dtos/responses"
+	"github.com/agile-edge/go-mod-core-contracts/v4/common"
+	commonDTO "github.com/agile-edge/go-mod-core-contracts/v4/dtos/common"
+	"github.com/agile-edge/go-mod-core-contracts/v4/dtos/responses"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
